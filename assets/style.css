@@ -1,0 +1,31 @@
+body{
+    background: url('background.jpg') no-repeat center center fixed;
+}
+#clock{
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+#clk-face{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    padding: 4px;
+    border: 7px solid black;
+    border-radius: 50%;
+}
+.hand{
+    height: 4px;
+    background: black;
+    transform-origin: 100%;
+}
+#hr-hand{
+    width: 40%;
+    transform-origin: 0%;
+}
+#sec-hand{
+    width: 50%;
+    transform: rotate(45deg);
+}
