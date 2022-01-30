@@ -18,14 +18,17 @@ body{
 }
 .hand{
     height: 4px;
+    width: 125px;
     background: black;
+    position: absolute;
     transform-origin: 100%;
 }
 #hr-hand{
-    width: 40%;
-    transform-origin: 0%;
+    z-index: 2;
+}
+#min-hand{
+    z-index: 3;
 }
 #sec-hand{
-    width: 50%;
-    transform: rotate(45deg);
+    z-index: 4;
 }
